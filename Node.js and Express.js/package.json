@@ -1,0 +1,19 @@
+{
+  "name": "expressjs",
+  "version": "1.0.1",
+  "description": "Files for my Building a Website with Node & ExpressJS course",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+  },
+  "original_author": "Ray Villalobos",
+  "author" : "Bruno Anhaia",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.14.0",
+    "reload": "^1.1.7",
+    "socket.io": "^2.1.1"
+  }
+}
